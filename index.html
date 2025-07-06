@@ -30,6 +30,13 @@
     .animate-ripple {
       animation: ripple 6s infinite linear;
     }
+    #taste .grid > div {
+      transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    }
+    #taste .grid > div:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.07);
+    }
   </style>
 </head>
 <body class="bg-[#d9ceb8] text-neutral-900 selection:bg-neutral-300/60">
@@ -65,7 +72,7 @@
       <div class="grid md:grid-cols-3 gap-12 pt-6">
         <div>
           <h3 class="fg text-2xl font-bold mb-2">重厚な風味</h3>
-          <p>Franklin Gothicの骨太な線と、懐の広い字形のように。黒胡椒やトニックの苦味が、シャープな柑橘系の風味を支えます。</p>
+          <p>Franklin Gothicの、どっしりと安定した骨格。その重厚な印象を、黒胡椒の刺激とトニックの心地よい苦味で表現。書体が持つ信頼感を、味わいの土台で支えます。</p>
         </div>
         <div>
           <h3 class="fg text-2xl font-bold mb-2">静かな共鳴</h3>
@@ -104,7 +111,7 @@
       </div>
        <div class="pt-12 text-center">
         <h3 class="fg text-3xl font-bold">ペアリング提案</h3>
-        <p class="mt-4 max-w-2xl mx-auto text-lg">PRESS BREWの複雑な風味は、食事ともよく合います。<br>書体を味わうように、味の組み合わせをお楽しみください。</p>
+        <p class="mt-4 max-w-2xl mx-auto text-lg">PRESS BREWの複雑な風味は、食事とのペアリングでさらに引き立ちます。<br>文字を組むように、味の組み合わせをお楽しみください。</p>
         <div class="mt-8 flex justify-center gap-8 flex-wrap">
           <div class="text-center">
             <img src="assets/cookie-pairing.png" alt="Typeface Cookies" class="w-48 h-48 object-cover rounded-full mx-auto border-4 border-neutral-300 shadow-lg">
@@ -131,7 +138,7 @@
         <p class="text-lg leading-relaxed">
           Franklin Gothicの物語を深く探る、20ページのA5サイズZine。PRESS BREWを五感で味わう体験を。
         </p>
-        <a href="https://example.com/order" class="inline-block px-8 py-4 bg-[#e4531d] text-white rounded-xl fg text-lg font-semibold shadow hover:shadow-md transition">Zineとボトルの限定セットを入手する</a>
+        <a href="https://example.com/order" class="inline-block px-8 py-4 bg-[#E25B26] text-white rounded-xl fg text-lg font-semibold shadow hover:shadow-md transition">Zineとボトルの限定セットを入手する</a>
       </div>
     </div>
   </section>
